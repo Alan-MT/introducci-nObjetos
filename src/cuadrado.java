@@ -20,4 +20,12 @@ public class cuadrado {
         double resultado = 4*lado;
         return resultado;
     }
+    public double getLado() {
+        return lado;
+    }
+    public void setLado(double lad) {
+        this.lado = lad;
+    }
+
+    
 }

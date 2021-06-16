@@ -1,45 +1,37 @@
 package src;
 
 public class Contador {
-    private int incremento;
-    private int decremento;
+    private int contador;
 
     public Contador(){
         
     }
 
-    public Contador(int incremento, int decremento) {
-        this.incremento = incremento;
-        this.decremento = decremento;
+    public Contador(int contador) {
+        this.contador = contador;
     }
 
-    public int incrementar(int incre){
-        incre++;
-        return incre;
+
+    public int incrementar(){
+        contador++;
+        return contador;
     }
 
-    public int descrementar(int decre){
-        decre++;
-        return decre;
+    public int descrementar(){
+        contador--;
+        return contador;
     }
 
-    public int getIncremento() {
-        return incremento;
+    public int getContador() {
+        return contador;
     }
 
-    public void setIncremento(int incremento) {
-        this.incremento = incremento;
-    }
-
-    public int getDecremento() {
-        return decremento;
-    }
-
-    public void setDecremento(int decremento) {
-        this.decremento = decremento;
+    public void setContador(int contador) {
+        this.contador = contador;
     }
 
     
-    
+   
+
     
 }

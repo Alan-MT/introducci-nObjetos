@@ -18,5 +18,14 @@ public class circulo {
         return perimetro;
     }
 
+    public double getRadio() {
+        return radio;
+    }
+
+    public void setRadio(double rad) {
+        radio = rad;
+    }
+
+    
     
 }
