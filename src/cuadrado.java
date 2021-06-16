@@ -4,17 +4,19 @@ import java.util.Scanner;
 
 public class cuadrado {
 
+    private  double lado;
+
     public cuadrado(){
-        System.out.println("ingrese el lado");
+        System.out.println("ingrese el lado del cuadrado");
         Scanner scan = new Scanner(System.in);
-        double lado = scan.nextDouble();
+        lado = scan.nextDouble();
     }
-    public double Area(double lado){
+    public double Area(){
         double resultado = lado*lado;
         return resultado;
     }
     
-    public double perimetro(double lado){
+    public double perimetro(){
         double resultado = 4*lado;
         return resultado;
     }

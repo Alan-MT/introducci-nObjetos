@@ -5,9 +5,9 @@ public class Contador {
     private int decremento;
 
     public Contador(){
-
+        
     }
-    
+
     public Contador(int incremento, int decremento) {
         this.incremento = incremento;
         this.decremento = decremento;
