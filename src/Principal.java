@@ -49,13 +49,18 @@ public class Principal {
         System.out.println(per.toString());
         System.out.println("Objeto 2");
         Persona pe2 = new Persona("juan",15,'j');
-        System.out.println("el imc es "+per.calcularIMC());
-        System.out.println("Si es true es mayor de dad sino es false "+pe2.mayorEdad(pe2.getEdad()));
-        System.out.println("comprobar sexo ");
+        Persona pe3 = pe2;
+        System.out.println("el imc es "+pe2.calcularIMC());
+        System.out.println("Si es true es mayor de dad sino es false "+per.mayorEdad(per.getEdad()));
+        pe2.generarIDN();
         System.out.println(pe2.toString());
         System.out.println();
         System.out.println("Objeto 3");
         Persona per3 = new Persona("Alan", 22, 178, 169, 'H');
-
+        Persona per4 = per3;
+        System.out.println("el imc es "+per3.calcularIMC());
+        System.out.println("Si es true es mayor de dad sino es false "+per3.mayorEdad(per3.getEdad()));
+        per3.generarIDN();
+        System.out.println(per3.toString());
     }
 }
